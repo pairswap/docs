@@ -2,7 +2,7 @@ module.exports = {
   title: "KO Exchange",
   tagline:
     "Trade, earn, stack yields and win crypto on the most community driven, decentralized platform",
-  url: "http://localhost3000",
+  url: "http://localhost:3000",
   baseUrl: "/",
   favicon: "img/favicon.ico",
 
