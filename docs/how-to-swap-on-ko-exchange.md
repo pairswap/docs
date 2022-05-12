@@ -81,7 +81,7 @@ In Metamask, please choose: Import Custom Token, Paste the address of our test t
 
 ![Import token](./assets/swap/import_token.png)
 
-### Step 10:
+### Step 8:
 
 After importing the Test token, you can now see the balance of your test token.
 
