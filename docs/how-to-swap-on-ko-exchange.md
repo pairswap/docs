@@ -9,15 +9,21 @@ Click link: [https://app.ko.exchange](https://app.ko.exchange)
 
 ![Step 1](./assets/swap/step1_1.png)
 
-Click Connect Wallet button on top right corner
+Click "Connect Wallet" button on the top right corner or the middle
 
 ![Step 1](./assets/swap/step1_2.png)
 
 ### Step 2
 
-Connect to your wallet. We currently support Metamask and Coinbase.
+Connect to your wallet. Depending on the source chain, there will be suitable wallets.
 
-![Step 2](./assets/swap/step2.png)
+BSC Testnet, Fantom Testnet, Polygon Testnet, Avalanche Testnet will support Metamask and Coinbase wallet.
+
+![Step 2](./assets/swap/step2_1.png)
+
+Cardano Testnet will support Nami and Flint wallet
+
+![Step 2](./assets/swap/step2_2.png)
 
 ### Step 3
 
@@ -27,77 +33,67 @@ Waiting for the wallet to connect.
 
 ### Step 4
 
-You will receive a message about "Unsupported Network".
+If Metamask or Coinbase is connected and the button is "Switch to the correct chain", please press it and confirm the popup from your wallet. Because current chain in your wallet is different from the source chain.
 
-This is normal because we are using an ETH Testnet (KO Chain) that is controlled by Sisu, not the Ethereum Mainnet.
+![Step 4](./assets/swap/step4_1.png)
 
-Click "x" on the top right corner.
+![Step 4](./assets/swap/step4_2.png)
 
-![Step 4](./assets/swap/step4.png)
+If Nami or Flint is connected and the button is "Unsupported chain" please make sure the wallet has currently use testnet network, if not, please change it to testnet.
+
+![Step 4](./assets/swap/step4_3.png)
 
 ### Step 5
 
-Click "Switch to supported network" to switch to ETH Testnet (KO Chain)
+Now you are already connected to the source chain on your wallet.
 
-Right now Metamask or your wallet will ask to allow to add the network
+Before you can transfer any tokens, you need to click "Give Permission" and confirm.
 
-Please choose Approve
+![Step 5](./assets/swap/step5_1.png)
 
-![Step 5](./assets/swap/step5.png)
+Please wait for a while until the transaction succeeds.
 
-### Step 6
+![Step 5](./assets/swap/step5_2.png)
 
-Allow this site to switch the network
+### Faucet
 
-Please choose "Switch Network"
+Sisu Network is using animal test tokens (TIGER, KANGAROO, MOUSE, MONKEY, BUNNY).
+You can claim it here [https://faucet.ko.exchange](https://faucet.ko.exchange)
 
-![Step 6](./assets/swap/step6.png)
+You can see your token balance in wallet tab.
 
-### Step 7
+![Step 6](./assets/swap/faucet.png)
 
-Now you are already connected to the ETH Testnet (KO chain) on your wallet
+After having some tokens, let’s swap now!
 
-Before you can transfer any tokens, you need to click “Give Permission”
+### Swap Chain
 
-Please click "Confirm"
+Make sure the current chain in wallet and source chain are the same. If not, it will show "Switch to the correct chain", please press and confirm.
 
-![Step 7](./assets/swap/step7.png)
+1.  Swap between ETH based chains (BSC Testnet, Fantom Testnet, Polygon Testnet, Avalanche Tesnet)
 
-### Note:
+Please enter a valid amount and press the "Swap" button
 
-"A fee is associated with this request. You need to have a minimum of $0.27(0.000094 ETH) test token in your wallet in order to confirm"
+![Swap](./assets/swap/swap1.png)
 
-This is only Test tokens, we will airdrop these Test tokens to our participants for gas fees.
+We provide links to your transaction after it succeeds.
 
-### Import Token:
+![Swap](./assets/swap/swap2.png)
 
-Sisu Network is using animal test tokens (Tiger, Monkey, Bunny,.. and so on)
+In the source chain, the transaction hash will be available immediately so the link will take you to the transaction link.
 
-We will then airdrop these test tokens to the testnet participants
+But transaction hash in the destination chain will be available after a while, so the link will take you to the page that lists the token transfers.
 
-You will need to import your Test token address into Metamask in order to see it
+Please wait and pay attention to the new "IN" row.
 
-In Metamask, please choose: Import Custom Token, Paste the address of our test token
+![Swap](./assets/swap/swap3.png)
 
-![Import token](./assets/swap/import_token.png)
+Or you can check token balance in [https://app.ko.exchange/wallet](https://app.ko.exchange/wallet)
 
-### Step 8:
+2.  Swap between ETH based chain and Cardano testnet
 
-After importing the Test token, you can now see the balance of your test token.
+Like swap between ETH based chains, but you should provide your recipient address which will receive a token (address format must be valid in the destination chain).
 
-For example: 47 Tiger Token
+![Swap](./assets/swap/swap4.png)
 
-You can now swap to different network
-
-You can choose Wallet column to see your balance of your tokens
-
-You can also switch back and forth different chain to see balance
-
-
-### Swap chain
-
-To swap back and forth between KO Chain and Mazze Chain, you can choose the icon next to "Swap Chain"
-
-Please click "Switch network" to allow wallet to switch from Ko Chain (ETH Testnet) to Mazze Chain
-
-![Swap chain](./assets/swap/swap_chain.png)
+**Hint:** In Cardano chain, you can see the token balance, transaction in, transaction out in your wallet (such as Nami) a bit faster than cardano explorer.
